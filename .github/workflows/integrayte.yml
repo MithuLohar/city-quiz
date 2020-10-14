@@ -48,4 +48,4 @@ jobs:
         with:
               args: deploy --only hosting
         env:
-              FIRE_KEY: ${{secrets:FIRE_KEY}}
+              FIRE_KEY: ${{secrets.FIRE_KEY}}
