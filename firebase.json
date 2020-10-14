@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "city-quiz",
+      "public": "dist/city-quiz",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

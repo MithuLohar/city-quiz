@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "city-quiz-f793c": {
+      "hosting": {
+        "city-quiz": [
+          "city-quiz-f793c"
+        ]
+      }
+    }
+  }
+}
