@@ -46,4 +46,4 @@ jobs:
         with:
           args: deploy --only hosting
         env:
-          FIRE_KEY: ${{secrets.FIRE_KEY}}
+          FIREBASE_TOKEN: ${{secrets.FIRE_KEY}}
