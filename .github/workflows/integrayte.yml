@@ -43,9 +43,9 @@ jobs:
         uses: actions/download-artifact@v1
         with:
           name: deploy_dist
-      - name: Deploy to Github Page
+      - name: Deploy to firebase
         uses: w9jds/firebase-actions@master
         with:
-              args: deploy --only hosting
+          args: deploy --only hosting
         env:
-              FIRE_KEY: ${{secrets.FIRE_KEY}}
+          FIRE_KEY: ${{secrets.FIRE_KEY}}
