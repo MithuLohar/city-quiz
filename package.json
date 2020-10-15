@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "analyze": "ng build --prod --stats-json && webpack-bundle-analyzer ./dist/city-quiz/stats-es2015.json",
-    "build:ci": "ng build --prod --sourceMap=false --base-href /city-quiz/",
+    "build:ci": "ng build --prod --sourceMap=false --base-href /",
     "test:ci": "ng test --watch=false --code-coverage --source-map true"
   },
   "private": true,
