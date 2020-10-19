@@ -131,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "city-quiz"
+  "defaultProject": "city-quiz",
+  "cli": {
+    "analytics": "d7dd0df2-ccfe-4da9-ad34-396238e1088a"
+  }
 }
